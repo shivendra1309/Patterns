@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Enter the number of lines to be printed in pattern");
         int n = scanner.nextInt();
         System.out.println("n = " + n);
-        Pattern p = new SymmetricVoid();
+        Pattern p = new TheNumberPattern();
         p.printPattern(n);
     }
 }
